@@ -7,12 +7,25 @@ body{
   font-family: 'Poppins', sans-serif;
 }
 
-nav{
+#navbar{
+  position: fixed;
   width: 100%;
   background: #00b18f;
   overflow: auto;
   justify-content: space-between;
-  padding: 10px;
+  padding: 15px;
+
+}
+
+.sticky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+
+.sticky + .content {
+  padding-top: 60px;
 }
 
 ul{
@@ -29,12 +42,12 @@ li{
   
 }
 .logo img{
-  position: absolute;
-  margin-top: 10px;
+  position:fixed;
+  margin-top: 20px;
   margin-left: 40px; 
-  height: 70px;
+  height: 65px;
   width: 100px;
-
+margin: 10px 0px 0px 40px;
 }
 nav input[type=text] {
   float: right;
@@ -172,36 +185,33 @@ input.check-toggle-round-flat + label:after {
   transition: margin 0.2s;
 }
 
-input.check-toggle-round-flat:checked + label {
-}
+
 
 input.check-toggle-round-flat:checked + label:after {
   margin-left: 44px;
 }
 
-footer{
-  position: fixed;
+#ft{
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: #00b18f;
   color: white;
   text-align: center;
-  
-  /*background-color: #d0f0f8;
-  -webkit-mask-image: url("../Images/background-footer.svg");
-  mask-image: url("../Images/background-footer.svg");
-  -webkit-mask-size: cover;
-  mask-size: cover;*/
+  height: 2.5rem;
+ 
 }
 
 .container__footer{
+  background-color: #00b18f;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   max-width: 1200px;
   margin: auto;
   margin-top: 100px;
+  width: 100%;
 }
 
 .box__footer{
@@ -216,7 +226,7 @@ footer{
 
 .box__footer .terms{
   max-width: 350px;
-  margin-top: 20px;
+  
   font-weight: 500;
   color: #ffffff;
   font-size: 18px;
