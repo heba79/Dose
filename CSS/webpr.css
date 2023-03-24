@@ -302,6 +302,7 @@ input.check-toggle-round-flat:checked + label:after {
 
 .container {
   width: 70%;
+  height: 70%;
   margin: 4rem auto;
 }
 
@@ -309,7 +310,7 @@ input.check-toggle-round-flat:checked + label:after {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
-  grid-gap: 1rem;
+  grid-gap: 2rem;
 }
 
 .gallery__img {
@@ -394,7 +395,7 @@ input.check-toggle-round-flat:checked + label:after {
   height: 150px;
   width: 150px;
   opacity: 0;
-  transition: .8s ease;
+  transition: .5s ease;
   background-color: #0e9bba;
   color: white;
 }
@@ -442,8 +443,9 @@ input.check-toggle-round-flat:checked + label:after {
 
 .container2 {
   max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  padding: 1rem;
+  margin: 7rem auto;
+
 }
 
 .title::after {
@@ -1062,3 +1064,5 @@ justify-content: center;
 #radio4:checked ~ .navigation-auto .auto-btn3{
   background: #00b18f;
 }
+
+
