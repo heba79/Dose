@@ -27,12 +27,12 @@ Here are screenshots that show the E-commerce demo application in use.
 ---
 
 **Item Detail Page**
-![Item Detail](IMAGES/productsDetails?raw=true "Optional Title")
+![Item Detail](IMAGES/productsDetails.png?raw=true "Optional Title")
 
 ---
 
 **Categories**
-![Categories](IMAGES/Categories?raw=true "Optional Title")
+![Categories](IMAGES/Categories.png?raw=true "Optional Title")
 
 
 ## Getting Started
