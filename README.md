@@ -12,7 +12,7 @@ It is still in progress, But I will include a data folder in this repo. Inside t
 
 ## Live Demonstration
 
-Dose can be [viewed online here](https://heba79.github.io/Dose/HTML/index.html).
+Dose can be [viewed online here](https://heba79.github.io/Dose/HTML/).
 
 Here are screenshots that show the E-commerce demo application in use.
 
