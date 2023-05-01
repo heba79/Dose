@@ -17,7 +17,7 @@ Dose can be [viewed online here](https://heba79.github.io/Dose/HTML/).
 Here are screenshots that show the E-commerce demo application in use.
 
 **Home Page**
-![Home Page](IMAGES/hp1.png?raw=true "Optional Title")
+![Home Page](IMAGES/HomePage.jpeg?raw=true "Optional Title")
 
 ---
 
