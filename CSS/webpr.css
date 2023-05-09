@@ -814,6 +814,23 @@ nav li.split {
   font-size: 14px;
 }
 
+.Article{
+  margin: 10% 20%;
+  padding: 70px 20px;
+  box-sizing: border-box;
+  object-fit: cover;
+  width: 60%;
+  min-width: 250px;
+  min-height: 300px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.18);
+  border-radius: 10px;
+}
+
+.Article h3{
+  color:#3AAFA9;
+}
+
+
 @media screen and (max-width: 1200px) {
   .product-item {
       width: calc(25% - 16px);
