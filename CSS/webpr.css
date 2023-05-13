@@ -688,7 +688,7 @@ input[type="checkbox"]{
 .brands{
   position: relative;
   margin: 0px 10px;
-  line-height: 1.5;
+  line-height: 1.8;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s;
@@ -699,7 +699,7 @@ input[type="checkbox"]{
   padding: 10px;
 }
 
-.filter-items input[type="checkbox"]:checked + label::after{
+#collapse:checked + label::after{
   content: "\2212";
 }
 
