@@ -1380,3 +1380,47 @@ margin-left:20px;
   .icon-hover-danger:hover i {
     color: #dc4c64 !important;
   }
+
+ 
+  
+  ul#wishlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .itemh {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .itemh img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .itemh .details {
+    flex-grow: 1;
+  }
+  
+  .itemh h2 {
+    margin-top: 0;
+  }
+  
+  .remove {
+    background-color: #ff5555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove:hover {
+    background-color: #ff3333;
+  }
+  main {
+    padding: 20px;
+  }
