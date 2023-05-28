@@ -1,166 +1,240 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        
-        <meta name="viewport" content="width=device-wdith",initial-scale="1.0">
-        <link rel="stylesheet" href="stylesheet.css">
-        <title>Admin Panel</title>
-    </head>
-    <body>
-        <div class="side-menu">
-            <div class="brand-name">
-                <h1>Dose</h1>
-            </div>
-            <ul>
-                <li><img src="dashboard (2).png" alte="">&nbsp; <span>Dashboard</span></li>
-                <li><span>add items</span></li>
-                <li><span>all sales</span></li>
-                <li><span>most selling</span></li>
-                <li><span>stock</span></li>
-                <li><span>Edit prices</span></li>
-                <li><img src="help-web-button.png" alte="">&nbsp;<span>Help</span></li>
-                <li><img src="settings.png" alte="">&nbsp;<span>settings</span></li>
-            </ul>
-        </div>
+<html>
+<head>
+	<title>Dashboard UI</title>
+	<link rel="stylesheet" type="text/css" href="/ADMIN1/stylesheet.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
 
-        <div class="containerT">
-            <div class="header">
-            <div class="nav">
-            <div class="search">
-                <input type="text" placeholder="Search..">
-                <button type="submit"><img src="search.png" alte=""></button>
-            </div>
-            <div class="user">
-                <a href="#" class="btn">Add New</a>
-            <img src="notifications.png" alt="">
-            <div class="img-case">
-                <img src="user.png" alt="">
-            </div>
-            </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="cards">
-                    <div class="card">
-                        <div class="box">
-                            <h1>2194</h1>
-                            <h3>Items</h3>
-                        </div>
-                   
-                    <div class="icon-case">
-                        <img class="meimg" src="med.png" alt="">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <h1>56564</h1>
-                        <h3>Stock</h3>
-                    </div>
-               
-                <div class="icon-case">
-                    <img class="meimg" src="stock.png" alt="">
-                </div>
-            </div>
-            <div class="card">
-                <div class="box">
-                    <h1>16%</h1>
-                    <h3>Sales</h3>
-                </div>
-           
-            <div class="icon-case">
-                <img class="meimg" src="sales.png" alt="">
-            </div>
-        </div>
-        <div class="card">
-            <div class="box">
-                <h1>2194</h1>
-                <h3>topsell</h3>
-            </div>
-       
-        <div class="icon-case">
-            <img class="meimg" src="topsell.png" alt="">
-                </div>
-                </div>
-             </div>
-                <div class="content-2">
-                    <div class="recent-payments">
-                        <div class="title">
-                            <h2>recent payments</h2>
-                            <a href="#" class="btn"> View All</a>
-                        </div>
-                        <table>
-                            <tr>
-                                <th>Name</th>
-                                <th>category</th>
-                                <th>price</th>
-                                <th> Option</th>
-                            </tr>
-                            <tr> 
-                                <td>cevamol</td>
-                                <td>medicine</td>
-                                <td> 120LE</td>
-                                <td><a href="#" class="btn"> View</a></td>
+<div class="sidebar">
+	<h1 class="logo">M<span>-SoftTech</span></h1>
+	<i class="fa fa-chevron-left menu-icon"></i>
+	<ul class="sidenav">
+		<li class="active"><i class="fa fa-home"></i><a href="#"> Dashboard
+			<span class="span1"><i class="fa fa-angle-right"></i></span>
 
-                            </tr>
-                            <tr> 
-                                <td>Head&shoulders</td>
-                                <td>Hair product</td>
-                                <td> 55LE</td>
-                                <td><a href="#" class="btn"> View</a></td>
+			
+		</a>
+			
+		</li>
 
-                            </tr>
-                            <tr> 
-                                <td>viamin C</td>
-                                <td>medicine</td>
-                                <td> 30LE</td>
-                                <td><a href="#" class="btn"> View</a></td>
+		<ul class="dropdown">
+				<li><a href="#"><span class="dot"></span> Analytics</a></li>
+				<li><a href="#"><span class="dot"></span> CRM</a></li>
+				<li><a href="#"><span class="dot"></span> eCommerce</a></li>
+			</ul>
 
-                            </tr>
-                            <tr> 
-                                <td>Sun Block</td>
-                                <td>Skin care</td>
-                                <td> 920LE</td>
-                                <td><a href="#" class="btn"> View</a></td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="new-items">
-                        <div class="recent-payments">
-                            <div class="title">
-                                <h2>New Items</h2>
-                                <a href="#" class="btn"> View All</a>
-                            </div>
-                            <table>
-                                <tr>
-                                    <th> profile</th>
-                                    <th>Item</th>
-                                    <th>Option</th>
-                                </tr>
-                                <tr>
-                                    <td><img src="user.png" alte=""></td>
-                                    <td>catfalam</td>
-                                    <td><img src="info.png" alte=""></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="user.png" alte=""></td>
-                                    <td>hand cream</td>
-                                    <td><img src="info.png" alte=""></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="user.png" alte=""></td>
-                                    <td>perfume</td>
-                                    <td><img src="info.png" alte=""></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="user.png" alte=""></td>
-                                    <td>dettol</td>
-                                    <td><img src="info.png" alte=""></td>
-                                </tr>
-                            </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </body>
+		<li><i class="fa fa-file"></i><a href="#"> Layout</a></li>
+		<p class="app">App Ans Pages</p>
+		<li><i class="fa fa-calendar"></i><a href="#"> Calendar</a></li>
+		<li><i class="fa fa-clone"></i><a href="#"> Invoice</a></li>
+		<li><i class="fa fa-user"></i><a href="#"> User</a></li>
+		<li><i class="fa fa-shield"></i><a href="#"> Permission</a></li>
+		<li><i class="fa fa-file-text"></i><a href="#"> Pages</a></li>
+		<li><i class="fa fa-lock"></i><a href="#"> Authentications</a></li>
+		<li><i class="fa fa-square-o"></i><a href="#"> Modal Examples</a></li>
+		
+	</ul>
+</div>
+
+<div class="main">
+	<div class="main-top">
+		<input type="text" name="" class="input" placeholder="Search">
+		<div class="top-right">
+			
+			<i class="fa fa-bell-o topicon bell"></i>
+			<div class="notification-div">
+			<p>Success!Your registration is now complete!</p>
+			<p>Here's some information you may find useful!</p>			
+		</div>
+
+
+			<a href="#" class="user1"><img src="/ADMIN1/./user.png" class="user">
+				<div class="profile-div">
+					<p><i class="fa fa-user"></i> &nbsp;&nbsp;Profile</p>
+					<p><i class="fa fa-cog"></i> &nbsp;&nbsp;Settings</p>
+					<p><i class="fa fa-power-off"></i> &nbsp;&nbsp;Log Out</p>
+				</div>
+			</a>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+
+
+	<div class="cong-box">
+		<div class="content">
+		<p class="head">Congratulations Manoj! 🎉</p><br>
+		<p>You have done 82% more sales today. Check your new badge in your profile.</p>
+		<button class="btn">View Badges</button>
+	</div>
+		<img src="./sales.png" >
+	</div>
+
+	<div class="com-box">
+		<div class="com-inner">
+		<i class="fa fa-cubes"></i>
+		<p>Orders</p>
+		<p>$1,356</p>
+		<p><i class="fa fa-long-arrow-down downar"></i> -14.25%</p>
+		</div>
+	</div>
+	<div class="com-box">
+		<div class="com-inner">
+		<i class="fa fa-desktop"></i>
+		<p>Sales</p>
+		<p>$4,356</p>
+		<p style="color: green;"><i class="fa fa-long-arrow-up upnar"></i> +28.25%</p>
+		</div>
+	</div>
+
+
+	<div class="table-box">
+		<table>
+  
+  <thead>
+    <tr>
+      <th scope="col" width="50px">ID</th>
+      <th scope="col" width="100px">Name</th>
+      <th scope="col">Date</th>
+      <th scope="col">Price</th>
+      <th scope="col">Status</th>
+      <th scope="col" width="70px">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="pe"></span>Pending</td>
+      <td data-label="Period"><i class="fa fa-gear ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+
+    <tr class="active-tr">
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="de"></span>Dispatch</td>
+      <td data-label="Period"><i class="fa fa-gear  ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+   <tr>
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="pe"></span>Pending</td>
+      <td data-label="Period"><i class="fa fa-gear ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+
+    <tr>
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="pe"></span>Pending</td>
+      <td data-label="Period"><i class="fa fa-gear ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+    
+    <tr>
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="de"></span>Dispatch</td>
+      <td data-label="Period"><i class="fa fa-gear  ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+
+    <tr>
+      <td data-label="Account">#3412</td>
+      <td data-label="Due Date"><img src="./user.png" class="tab-img">Manoj</td>
+      <td data-label="Period">03/01/2022</td>
+      <td data-label="Due Date">$64.00</td>
+      <td data-label="Amount" style="position: relative;"><span class="pe"></span>Pending</td>
+      <td data-label="Period"><i class="fa fa-gear ticon"></i>
+      &nbsp; 
+      	<i class="fa fa-angle-down ticon"></i></td>
+    </tr>
+    
+  </tbody>
+</table>
+	</div>
+
+
+	<div class="t-sale">
+		
+			<div class="content-box-1">
+			<br>	
+			<p class="head-1">Total Sale </p>
+
+			<div class="circle-wrap">
+    <div class="circle">
+      <div class="mask full">
+        <div class="fill"></div>
+      </div>
+      <div class="mask half">
+        <div class="fill"></div>
+      </div>
+      <div class="inside-circle"> 70% </div>
+    </div>
+  </div>
+		</div>
+		<div style="text-align: center;"><button class="btn">Veiw All</button></div>
+	</div>
+	</div>
+
+</div>
+
+ 
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+<script>
+$(document).ready(function(){
+  $(".span1").click(function(){
+    $(".dropdown").slideToggle(500);
+  });
+});
+
+	$('.sidenav li').click(function(){
+    $('.sidenav li').removeClass("active");
+    $(this).addClass("active");
+});
+</script>
+
+<script type="text/javascript">
+	$(".menu-icon").click(function(e) {
+        e.preventDefault();
+        $(".menu-icon").toggleClass("menuicon");
+        $(".main").toggleClass("main-width");
+        $(".sidebar").toggleClass("active1");
+        $(".sidenav li a").toggleClass("anchor");
+        $(".sidenav li").toggleClass("lislide");
+        $(".sidenav p").toggleClass("apphide");
+        $(".logo span").toggleClass("headspan");
+        $(".logo").toggleClass("lm");
+
+});
+</script>
+<script>
+$(document).ready(function(){
+  $(".user").click(function(){
+    $(".profile-div").toggle(1000);
+  });
+  $(".bell").click(function(){
+    $(".notification-div").toggle(1000);
+  });
+});
+</script> 
+</body>
 </html>
